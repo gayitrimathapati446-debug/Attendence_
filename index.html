@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Attendance</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h2>Student Attendance System</h2>
+
+<form action="/submit" method="POST">
+
+<label>Student Name</label>
+<input type="text" name="name" required>
+
+<label>Status</label>
+
+<select name="status">
+<option>Present</option>
+<option>Absent</option>
+</select>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<br>
+
+<a href="/view">View Attendance</a>
+
+</body>
+</html>
